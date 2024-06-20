@@ -8,7 +8,7 @@ function AllTimeFav() {
   return (
     <div className="p-6 bg-gray-800">
       <h1 className="font-bold text-left text-yellow-400 md:text-5xl text-2xl mb-8 ml-[50px]">
-        ALL TIME FAVOURITESS
+        ALL TIME FAVOURITES
       </h1>
       <div className='flex md:flex-row md:justify-evenly flex-row justify-evenly items-center '>
       <Card
