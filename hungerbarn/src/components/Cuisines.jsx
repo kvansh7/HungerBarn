@@ -22,25 +22,25 @@ function Cuisines() {
     img={indian}
     title="NORTH INDIAN"
     description="full of veggies"
-    onClick={() => handleCardClick('northindian')}
+    onClick={() => handleCardClick('North Indian')}
     />
     <Cards2
     img={italian}
     title="ITALIAN"
     description="full of cheese"
-    onClick={() => handleCardClick('italian')}
+    onClick={() => handleCardClick('Italian')}
     />
     <Cards2
     img={mexican}
     title="MEXICAN"
     description="Diff saucess"
-    onClick={() => handleCardClick('mexican')}
+    onClick={() => handleCardClick('Mexican')}
     />
     <Cards2
     img={southi}
     title="SOUTH INDIAN"
     description="Breakfast king"
-    onClick={() => handleCardClick('southindian')}
+    onClick={() => handleCardClick('South Indian')}
     />
     </div>
     <div className='flex justify-center items-center text-slate-50 font-normal mb-5'>

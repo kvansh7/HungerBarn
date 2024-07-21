@@ -1,6 +1,6 @@
 import React from 'react'
 import Cards2 from '../components/Cards2'
-import { bar, chinise, dessert, fat, indian, italian, mexican, southi } from '../assets'
+import { bar, chinise, dessert, fat, indian, italian, mexican, oth, southi, street } from '../assets'
 import Button from '../components/Button'
 import { Link, useNavigate } from 'react-router-dom'
 import Header from '../components/Header'
@@ -21,7 +21,7 @@ function Cuisines() {
     <Cards2
     img={fat}
     title="FAST FOOD"
-    description="burgerr and friesss"
+    description="burger and fries"
     onClick={() => handleCardClick('Fast Food')}
     />
 
@@ -40,7 +40,7 @@ function Cuisines() {
     <Cards2
     img={mexican}
     title="MEXICAN"
-    description="Diff saucess"
+    description="Differnt sauces"
     onClick={() => handleCardClick('Mexican')}
     />
     <Cards2
@@ -53,14 +53,14 @@ function Cuisines() {
     <Cards2
     img={chinise}
     title="CHINESE"
-    description="spiccyy"
+    description="spicy mouth watery"
     onClick={() => handleCardClick('Chinese')}
     />
 
     <Cards2
     img={dessert}
     title="DESSERTS"
-    description="Sweetss"
+    description="Sweets"
     onClick={() => handleCardClick('Desserts')}
     />
 
@@ -69,6 +69,18 @@ function Cuisines() {
     title="Drinks"
     description="Quench your thirst"
     onClick={() => handleCardClick('Drinks')}
+    />
+    <Cards2
+    img={street}
+    title="Street food"
+    description="All of the street"
+    onClick={() => handleCardClick('Street Food')}
+    />
+    <Cards2
+    img={oth}
+    title="Other Indian"
+    description="All indian"
+    onClick={() => handleCardClick('Other Indian')}
     />
 
     </div>

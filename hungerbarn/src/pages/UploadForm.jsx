@@ -115,6 +115,7 @@ const UploadForm = () => {
                 <option value="Street food">Street Food</option>
                 <option value="Mexican">Mexican</option>
                 <option value ="Chinese">Chinese</option>
+                <option value="Other Indian">Other Indian</option>
                 <option value="Drinks">Drinks</option>
                 <option value="Desserts">Desserts</option>
               </select>

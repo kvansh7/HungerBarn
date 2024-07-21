@@ -8,7 +8,7 @@ import CategoryCard from '../components/CategoryCard';
 import { getFirestore, collection, getDocs } from 'firebase/firestore';
 import { firebaseApp } from '../../config/firebase-config';
 import { useNavigate } from 'react-router-dom';
-import { des, dri, fast, it, mex, nort, panipuri, sou } from '../assets';
+import { des, dri, fast, it, mex, nort, oth1, panipuri, sou } from '../assets';
 
 const ExplorePage = () => {
   const [dishes, setDishes] = useState([]);
@@ -87,7 +87,13 @@ const ExplorePage = () => {
             name='Drinks'
             onClick={() => handleCardClick('Drinks')}
             />
-
+            <CategoryCard
+            image={oth1}
+            name='Other Indian'
+            onClick={() => handleCardClick('Other Indian')}
+            />
+            
+            
           </div>
         </div>
 

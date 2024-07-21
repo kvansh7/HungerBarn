@@ -45,7 +45,7 @@ function HomePage() {
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
           <h1 className="text-xl md:text-6xl font-bold mt-[100px]">Street Special</h1>
           <p className="text-lg md:text-2xl md:mt-4">Find hidden street food gems near you</p>
-        <Link to='/cuisine/street'> <Button title='Explore'/> </Link>
+        <Link to='/cuisine/Street Food'> <Button title='Explore'/> </Link>
           <div className=' md:mb-[250px] mb-[150px]'></div>
         </div>
       </div>

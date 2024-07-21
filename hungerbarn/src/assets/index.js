@@ -24,6 +24,8 @@ import nort from "./nort.jpg"
 import sou from "./sou.jpg"
 import bar from "./bar.jpg"
 import dri from "./dri.jpg"
+import oth from "./oth.jpg"
+import oth1 from "./oth1.jpg"
 export{
     bg,
     mai,
@@ -50,5 +52,7 @@ export{
     nort,
     sou,
     dri,
-    bar
+    bar,
+    oth,
+    oth1
 };
