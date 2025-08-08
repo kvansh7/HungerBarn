@@ -1,8 +1,6 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
+import {getFirestore} from "firebase/firestore"
 import { getStorage } from "firebase/storage";
-import { getAnalytics } from "firebase/analytics"; 
-
 const firebaseConfig = {
   apiKey: "AIzaSyBnltMmwqDXVWbdjpdDtc8xzKQS20Q_tYc",
   authDomain: "hungerbarn-a3647.firebaseapp.com",
@@ -16,12 +14,5 @@ const firebaseConfig = {
 const firebaseApp = initializeApp(firebaseConfig);
 const firestore = getFirestore(firebaseApp);
 const storage = getStorage(firebaseApp);
-let analytics;
-if (typeof window !== "undefined") {
-  analytics = getAnalytics(firebaseApp);
-  logEvent(analytics, "netlify_test_event");
-}
 
-export { firebaseApp, firestore, storage, analytics };
-
-
+export { firebaseApp, firestore, storage };
