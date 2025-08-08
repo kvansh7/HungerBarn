@@ -16,6 +16,12 @@ const firebaseConfig = {
 const firebaseApp = initializeApp(firebaseConfig);
 const firestore = getFirestore(firebaseApp);
 const storage = getStorage(firebaseApp);
-const analytics = getAnalytics(firebaseApp); 
+let analytics;
+if (typeof window !== "undefined") {
+  analytics = getAnalytics(firebaseApp);
+  logEvent(analytics, "netlify_test_event");
+}
 
 export { firebaseApp, firestore, storage, analytics };
+
+
